@@ -28,42 +28,6 @@
           * Copyright 2017 The Emscripten Authors
           * SPDX-License-Identifier: MIT
           */function intArrayFromString(r,e,t){var i=t>0?t:lengthBytesUTF8(r)+1,n=new Array(i),a=stringToUTF8Array(r,n,0,n.length);return e&&(n.length=a),n}function intArrayToString(r){for(var e=[],t=0;t<r.length;t++){var i=r[t];i>255&&(ASSERTIONS&&assert(!1,"Character code "+i+" ("+String.fromCharCode(i)+")  at offset "+t+" not in 0x00-0xFF."),i&=255),e.push(String.fromCharCode(i))}return e.join("")}var memoryInitializer="WormsZone.html.mem";memoryInitializer=Module.locateFile?Module.locateFile(memoryInitializer,""):memoryInitializer,Module.memoryInitializerRequestURL=memoryInitializer;var meminitXHR=Module.memoryInitializerRequest=new XMLHttpRequest;meminitXHR.open("GET",memoryInitializer,!0),meminitXHR.responseType="arraybuffer",meminitXHR.send(null);var script=document.createElement("script");script.src="WormsZone.js",document.body.appendChild(script)
-     
-      
-const msg = "Вырасти своего червячка и победи меня!";
-const app_id = "https://ok.ru/game/512001158232";
-OKIG.postMediatopic = 5940104;
-
-if (OKIG.type === 'mobile') {
-    OKSDK.Widgets.post(null, {
-        "attachment": {
-            "media": [
-                {
-                    "type": "text",
-                    "text": msg
-                },
-                {
-                    "type": "app-ref",
-                    "appId": app_id
-                }
-            ]
-        },
-        "silent": true
-    });
-} else {
-    FAPI.UI.postMediatopic({
-        "media":[
-            {
-                "type": "text",
-                "text": msg
-            },
-            {
-                "type": "app-ref",
-                "appId": app_id
-            }
-        ]
-    }, false);
-}
     
       
       </script>
