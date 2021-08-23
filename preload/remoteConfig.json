@@ -18,17 +18,17 @@
     "urls": {
         "type": "json",
         "value": {
-            "facebookGroup": "https://www.facebook.com/wormszone",
-            "instagram": "https://www.instagram.com/azurgameslive/",
-            "privacy": "https://privacy.azurgames.com/",
-            "shareOKIG": "https://ok.ru/game/wormszone",
-            "shareVKIG": "https://vk.com/worms.zone",
-            "shareY8": "https://www.y8.com/games/worms_zone",
-            "shareCommon": "https://wormszone.onelink.me/Tp5Q/9137191a",
-            "yandexEvent": "https://yandex.ru/legal/competition_generalterms",
-            "updateGame": "https://let.fyi/wormszone?newver={}",
-            "appStore": "https://apps.apple.com/app/worms-zone/id1357967682?ls=1",
-            "googlePlay": "https://play.google.com/store/apps/details?id=com.wildspike.wormszone"
+            "facebookGroup": "",
+            "instagram": "",
+            "privacy": "",
+            "shareOKIG": "https://ok.ru/game/512001158232",
+            "shareVKIG": "",
+            "shareY8": "",
+            "shareCommon": "",
+            "yandexEvent": "",
+            "updateGame": "",
+            "appStore": "",
+            "googlePlay": ""
         }
     },
     "offer": {
