@@ -1,57 +1,75 @@
-<div class="separator" style="clear: both;"><a href="https://meethoneygirls.life/?u=qum8eky&o=w06krza&t=chik_fb3&cid=chik_fb3" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="400" data-original-height="229" data-original-width="450" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWx5sefZx1w8NrpqotPBVY5mXM5KZUHdN4O9Zy9Pi7BaSVKuGggMfin9qwBtn5JEOkzUfwuTcNxy9CxJErIZaSlqbH30ED_S4mjHlf-OzyWd6vF13-AMKZDphA-lzk8cRjQOTlUkVn5ZpcQS3f8e-L06UnkXNM-S5JwTWcgXf4puP8UeSbKck-Wcfc/s400/Are-you-18-or-older.jpg"/></a></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
 
-<style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
+        #overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            align-items: center;
+            justify-content: center;
+        }
 
-    .button-container {
-      text-align: center;
-    }
+        #modal {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            max-width: 80%;
+        }
 
-    .Yes {
-      padding: 30px 45px;
-      font-size: 25px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    .Yes:hover {
-      background-color: #45a049;
-    }
-  </style>
+        #confirmButton {
+            padding: 10px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
 <body>
-  <div class="button-container">
-    <a href="https://meethoneygirls.life/?u=qum8eky&o=w06krza&t=chik_fb3&cid=chik_fb3" target="_self">
-      <button class="Yes" onclick="overAge()">Yes, I'm 18+</button>
-    </a>
-  </div>
-</body>
 
+<div id="overlay">
+    <div id="modal">
+        <p>This content is intended for individuals over 18 years old.</p>
+        <button id="confirmButton">Confirm</button>
+    </div>
+</div>
 
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RCRPE66B19"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    document.addEventListener('DOMContentLoaded', function () {
+        const overlay = document.getElementById('overlay');
+        const confirmButton = document.getElementById('confirmButton');
 
-  gtag('config', 'G-RCRPE66B19');
+        // Display the modal window on page load
+        overlay.style.display = 'flex';
+
+        // Event handler for the confirm button
+        confirmButton.addEventListener('click', function () {
+            // Redirect to another page
+            window.location.href = 'https://example.com/content';
+        });
+    });
 </script>
 
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@appurlio" />
-<meta property="twitter:title" content="I Love you" />
-<meta property="twitter:description" content="Looking my video" />
-<meta property="twitter:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3CHckNMgLVTiUm-vJ5QuXcDxRdRghobe9y3AB-DDAx68N9G5HJhaOGiQje_De45Jw1-Fusf895ob_NM7Wtogxd_QO5t_tXYtyuvX3q2JtbxJNRzjhKAao8iSOa8nygWx5NGUvZGR-YK1nO7ZUavl8RzIP4OMPCAmRNdi0TQZlx5MfUDntUYjwcwfGeA/s596/awdawd.png" />
-
-
-
+</body>
+</html>
